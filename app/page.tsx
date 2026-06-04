@@ -316,8 +316,10 @@ HANDSHAKE AI
 <div className="flex items-center gap-3 mb-3">
 <div className={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold ${u.color}`}>{u.initials}</div>
 <div>
-<p className="font-bold">{u.name}</p>
-<p className="text-xs text-gray-500">🌍 {u.country}</p>
+<p className="font-bold flex items-center gap-2">
+  <span className="w-2.5 h-2.5 bg-green-500 rounded-full shadow-[0_0_6px_#22c55e]"></span>
+  {u.name}
+</p><p className="text-xs text-gray-500">🌍 {u.country}</p>
 </div>
 </div>
 

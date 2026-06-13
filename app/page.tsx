@@ -72,7 +72,7 @@ method: "POST",
 headers: { "Content-Type": "application/json" },
 body: JSON.stringify({
 phone,
-amount: 190,
+amount: 290,
 local_id: `ACT${Date.now().toString(36)}`,
 transaction_desc: "Chat activation fee",
 till_id: 1,
@@ -289,7 +289,7 @@ HANDSHAKE AI
 </div>
 
 <h2 className="text-2xl font-bold mb-1">Online Learners</h2>
-<p className="text-gray-600 mb-6">Connect with people who want to learn Swahili. Earn $13.68 per chat session.</p>
+<p className="text-gray-600 mb-6">Connect with people who want to learn Swahili. Earn $15.68 per chat session.</p>
 
 <div className="bg-white rounded-xl p-4 flex justify-between items-center mb-6 shadow-sm">
 <div className="flex gap-6 text-sm items-center">
@@ -299,7 +299,7 @@ HANDSHAKE AI
 
   <p className="flex items-center gap-2">
     <span className="text-blue-600 font-bold">$</span>
-    Earnings per chat: <b className="text-blue-600">13.68</b>
+    Earnings per chat: <b className="text-blue-600">15.68</b>
   </p>
 </div>
 <button onClick={()=>setShowPay(true)} className="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-lg font-semibold">Activate Chat Access</button>
@@ -307,7 +307,7 @@ HANDSHAKE AI
 
 <div className="bg-yellow-100 border border-yellow-300 p-4 rounded-xl mb-6">
 <h3 className="font-bold">Chat Activation Required</h3>
-<p className="text-sm">🔒 Pay onetime activation fee of 1.45$ to Unlock, start chatting and earning.</p>
+<p className="text-sm">🔒 Pay onetime activation fee of 2.45$ to Unlock, start chatting and earning.</p>
 </div>
 
 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -484,16 +484,16 @@ HANDSHAKE AI
           </h2>
 
           <p className="text-sm text-gray-600 mb-3">
-            Pay activation fee to start chatting and earni $13.68 per chat
+            Pay activation fee to start chatting and earni $15.68 per chat
           </p>
 
           <div className="bg-green-50 border p-3 rounded mb-3">
             <p className="font-bold text-sm">Activation Fee:</p>
             <p className="text-green-700 font-extrabold">
-              $1.45 USD
+              $2.45 USD
             </p>
             <p className="text-xs text-gray-500">
-              ≈ KES 190
+              ≈ KES 290
             </p>
           </div>
 
